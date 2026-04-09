@@ -1,0 +1,4 @@
+group_id,in_force_count,sum_assured,annual_premium,attained_age,policy_code,policy_term_yr,policy_duration_mths,accrued_bonus_per_policy
+GRP_A,100.0,10000.0,1200.0,50,ENDOW_NONPAR,1,0,0.0
+GRP_B,50.0,5000.0,600.0,60,TERM,10,36,0.0
+GRP_C,200.0,20000.0,2400.0,45,ENDOW_PAR,20,120,500.0

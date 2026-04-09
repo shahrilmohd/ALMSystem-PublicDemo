@@ -1,0 +1,25 @@
+Copyright (c) 2026 papabotak. All Rights Reserved.
+
+This repository is made available for evaluation and educational purposes only.
+
+You MAY:
+  - View, clone, and run the code locally to evaluate its capabilities
+  - Reference the architecture and design patterns in non-commercial contexts
+  - Share links to this repository for evaluation purposes
+
+You MAY NOT:
+  - Copy, redistribute, sublicense, or publish this code or any derivative works
+  - Use this code, in whole or in part, in any commercial product or service
+  - Use this code as the basis for a competing product or service
+  - Remove or alter this copyright notice
+
+The full model — including BPA liability computation, matching adjustment logic,
+mortality basis, and associated actuarial assumptions — is available under a
+separate commercial licence.
+
+For commercial licensing enquiries, please connect via LinkedIn or open a
+GitHub Discussion.
+
+THIS SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND. IN NO EVENT
+SHALL THE COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY
+ARISING FROM THE USE OF THIS SOFTWARE.
