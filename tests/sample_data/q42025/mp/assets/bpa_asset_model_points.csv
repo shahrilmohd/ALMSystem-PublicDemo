@@ -1,0 +1,9 @@
+asset_id,asset_type,face_value,annual_coupon_rate,maturity_month,accounting_basis,initial_book_value,eir,calibration_spread,cashflow_type,currency,has_credit_risk_transfer,has_qualifying_currency_swap,rating,seniority,tenor_years,spread_bps
+BPA_GILT_20Y,bond,15000000,0.040,240,AC,15450000,,0.000,fixed,GBP,False,False,AAA,senior_unsecured,20.0,0
+BPA_GILT_30Y,bond,10000000,0.042,360,AC,10380000,,0.000,fixed,GBP,False,False,AAA,senior_unsecured,30.0,0
+BPA_CORP_AA_15Y,bond,8000000,0.053,180,AC,7960000,0.055,0.006,fixed,GBP,False,False,AA,senior_unsecured,15.0,60
+BPA_CORP_AA_25Y,bond,6000000,0.056,300,AC,5940000,0.058,0.008,fixed,GBP,False,False,AA,senior_unsecured,25.0,75
+BPA_CORP_A_12Y,bond,7000000,0.060,144,AC,6930000,0.063,0.012,fixed,GBP,False,False,A,senior_unsecured,12.0,100
+BPA_CORP_BBB_10Y,bond,5000000,0.067,120,AC,4910000,0.071,0.018,fixed,GBP,False,False,BBB,senior_unsecured,10.0,145
+BPA_CORP_BBB_18Y,bond,4000000,0.065,216,AC,3920000,0.069,0.020,fixed,GBP,False,False,BBB,senior_unsecured,18.0,155
+BPA_CORP_BBB_12Y_HY,bond,6000000,0.080,144,AC,6480000,0.084,0.022,fixed,GBP,False,False,BBB,senior_unsecured,12.0,200

@@ -1,0 +1,55 @@
+# ── secrets and credentials ───────────────────────────────────────────────────
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.p12
+*.pfx
+*.crt
+*.cer
+*secret*
+*credentials*
+
+# ── version control ───────────────────────────────────────────────────────────
+.git
+.gitignore
+
+# ── Python build artefacts ────────────────────────────────────────────────────
+.venv
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+*.egg-info
+dist
+build
+.uv-cache
+
+# ── test and type-check artefacts ─────────────────────────────────────────────
+.pytest_cache
+.mypy_cache
+tests
+
+# ── local databases and outputs ───────────────────────────────────────────────
+*.db
+*.sqlite
+*.sqlite3
+outputs
+
+# ── IDE and OS artefacts ──────────────────────────────────────────────────────
+.vscode
+.idea
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# ── Claude Code config ────────────────────────────────────────────────────────
+.claude
+
+# ── docs and notebooks (not needed at runtime) ────────────────────────────────
+document
+notebooks
+README.md
+CLAUDE.md

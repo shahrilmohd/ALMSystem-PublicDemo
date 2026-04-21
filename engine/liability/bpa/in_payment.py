@@ -1,0 +1,46 @@
+"""
+engine/liability/bpa/in_payment.py — BPA in-payment annuitant liability.
+
+Proprietary implementation — stubbed in public demo.
+Models currently in-payment pensioners under a multi-decrement framework
+(mortality, TV). Supports LPI escalation, dependant proportion, and
+MA-adjusted discounting. Full mortality table integration with CMI improvements.
+"""
+from __future__ import annotations
+from typing import Any
+import pandas as pd
+from engine.core.projection_calendar import ProjectionCalendar
+from engine.liability.multi_decrement import MultiDecrementLiability
+
+
+class InPaymentLiability(MultiDecrementLiability):
+    """
+    BPA in-payment liability — currently paying pensioners.
+
+    Decrements: mortality, transfer value (TV) option.
+    Cash flows: pension payments with LPI escalation.
+    """
+
+    def __init__(self, calendar: ProjectionCalendar) -> None:
+        self._calendar = calendar
+
+    def get_decrement_rates(self, t: int, model_points: pd.DataFrame) -> pd.DataFrame:
+        raise NotImplementedError("Proprietary implementation — not available in public demo.")
+
+    def get_decrement_rates_with_assumptions(self, *args: Any, **kwargs: Any) -> Any:
+        raise NotImplementedError("Proprietary implementation — not available in public demo.")
+
+    def project_cashflows(self, *args: Any, **kwargs: Any) -> Any:
+        raise NotImplementedError("Proprietary implementation — not available in public demo.")
+
+    def get_bel(self, *args: Any, **kwargs: Any) -> float:
+        raise NotImplementedError("Proprietary implementation — not available in public demo.")
+
+    def get_reserve(self, *args: Any, **kwargs: Any) -> float:
+        raise NotImplementedError("Proprietary implementation — not available in public demo.")
+
+    def get_decrements(self, *args: Any, **kwargs: Any) -> Any:
+        raise NotImplementedError("Proprietary implementation — not available in public demo.")
+
+    def step_time(self, *args: Any, **kwargs: Any) -> Any:
+        raise NotImplementedError("Proprietary implementation — not available in public demo.")

@@ -1,0 +1,37 @@
+# fund_config.yaml — Sample fund configuration for deterministic / stochastic runs.
+#
+# Fund:      MAIN_FUND — a single conventional with-profits fund.
+# Portfolio: 4 bonds (AC, FVTPL, FVOCI) + 2 listed equities.
+#            See tests/sample_data/mp/assets/asset_model_points.csv for details.
+#
+# SAA weights are derived from opening book values in that file:
+#   Bonds   : £26,950,000 / £38,500,000 ≈ 0.70
+#   Equities: £11,550,000 / £38,500,000 ≈ 0.30
+#   Cash / Derivatives: 0.00 (not held in this fund)
+#
+# Crediting groups:
+#   PAR     — ENDOW_PAR policies (participating endowments, bonus-bearing)
+#   NON_PAR — ENDOW_NONPAR and TERM policies (non-participating, no bonus)
+
+fund_id: MAIN_FUND
+fund_name: Main With-Profits Fund
+
+saa_weights:
+  bonds: 0.70
+  equities: 0.30
+  derivatives: 0.00
+  cash: 0.00
+
+crediting_groups:
+  - group_id: PAR
+    group_name: Participating Endowments
+    product_codes:
+      - ENDOW_PAR
+
+  - group_id: NON_PAR
+    group_name: Non-Participating (Endowment and Term)
+    product_codes:
+      - ENDOW_NONPAR
+      - TERM
+
+rebalancing_tolerance: 0.05

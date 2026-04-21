@@ -1,0 +1,29 @@
+# bpa_fund_config.yaml — Fund configuration for BPA MA portfolio runs.
+#
+# Fund:      BPA_FUND — buy-and-hold MA portfolio (all bonds, no equities).
+# Portfolio: 2 gilts + 5 corporate bonds (see bpa_asset_model_points.csv).
+#            Total portfolio value: ~£56.5m (opening book values).
+#
+# SAA weights: 100% bonds (buy-and-hold, no routine rebalancing in BPA).
+# No crediting groups — BPA is a direct liability; no policyholder bonus crediting.
+#
+# Deals:
+#   AcmePension_2024Q1  — buyout, inception 2024-01-15, MA-eligible
+#   BetaScheme_2024Q3   — buyout, inception 2024-07-01, MA-eligible
+
+fund_id: BPA_FUND
+fund_name: BPA Matching Adjustment Portfolio
+
+saa_weights:
+  bonds: 1.00
+  equities: 0.00
+  derivatives: 0.00
+  cash: 0.00
+
+crediting_groups:
+  - group_id: BPA
+    group_name: BPA Annuity Portfolio
+    product_codes:
+      - BPA
+
+rebalancing_tolerance: 0.00

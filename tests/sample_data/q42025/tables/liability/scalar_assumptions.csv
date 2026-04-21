@@ -1,0 +1,7 @@
+assumption,value,notes
+expense_pct_premium,0.0250,2.5% of annual premium per policy per year
+expense_per_policy,75.00,Fixed GBP 75 per in-force policy per year
+bonus_rate_yr,0.0300,3.0% of sum assured per year accrued for ENDOW_PAR only
+default_mortality_rate,0.0050,Fallback q_x when attained age not in mortality_rates.csv
+default_lapse_rate,0.0165,Fallback w_x when duration not in lapse_rates.csv
+default_sv_factor,0.9550,Fallback surrender value factor when duration not in surrender_value_factors.csv

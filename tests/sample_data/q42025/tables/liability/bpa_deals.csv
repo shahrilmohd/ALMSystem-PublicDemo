@@ -1,0 +1,3 @@
+deal_id,deal_type,inception_date,deal_name,ma_eligible
+AcmePension_2024Q1,buyout,2024-01-15,Acme Pension Scheme 2024 Q1,true
+BetaScheme_2024Q3,buyout,2024-07-01,Beta Industries Pension Scheme 2024 Q3,true

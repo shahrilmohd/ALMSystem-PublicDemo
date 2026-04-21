@@ -1,0 +1,7 @@
+asset_id,asset_type,face_value,annual_coupon_rate,maturity_month,accounting_basis,initial_book_value,eir,calibration_spread,dividend_yield_yr
+GOV_UK_5Y,bond,8000000,0.040,60,AC,8080000,,0.000,
+CORP_AC_7Y,bond,5000000,0.055,84,AC,4950000,0.058,0.008,
+CORP_FVTPL_3Y,bond,7000000,0.048,36,FVTPL,7050000,,0.005,
+CORP_FVOCI_10Y,bond,7000000,0.052,120,FVOCI,6870000,,0.012,
+EQ_UK_LGCAP,equity,,,,,7050000,,,0.035
+EQ_GLBL_IDX,equity,,,,,4500000,,,0.020

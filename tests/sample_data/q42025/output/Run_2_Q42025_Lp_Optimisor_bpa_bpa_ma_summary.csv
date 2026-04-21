@@ -1,0 +1,2 @@
+ma_benefit_bps,eligible_asset_count,cashflow_test_passes,failing_periods,fs_table_effective_date,fs_table_source_ref,pre_ma_bel,post_ma_bel
+42.07541979373027,7,False,"[1, 2, 3, 4, 5, 6, 7, 8, 9]",2024-07-01,PRA PS10/24,41962286.35598538,40532973.49314816
